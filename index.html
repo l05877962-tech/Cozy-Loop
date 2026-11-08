@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff4e7">
+  <meta name="description" content="Cozy Loop — قطع شتوية ناعمة، خيوط وأدوات يدوية، شموع وهدايا تصنع لحظات دافئة.">
+  <title>Cozy Loop | دفء صغير، يغيّر يومك كله</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">
+    <span>نوصّل دفء Cozy Loop إلى جميع مناطق المملكة العربية السعودية <span aria-label="السعودية">🇸🇦</span></span>
+    <span class="announcement-note">دفء صغير، يغيّر يومك كله.</span>
+  </div>
+
+  <header class="site-header">
+    <div class="header-inner container">
+      <a class="brand" href="#home" aria-label="Cozy Loop — الرئيسية">
+        <img src="assets/images/smiling-yarn-ball.svg" alt="" width="50" height="50">
+        <span class="brand-copy"><strong>Cozy Loop</strong><small>A little warmth, wrapped with love.</small></span>
+      </a>
+      <button class="menu-toggle icon-button" type="button" aria-label="فتح قائمة التنقل" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <nav class="main-nav" aria-label="التنقل الرئيسي">
+        <a href="#home">الرئيسية</a>
+        <a href="#soft-cozy">Soft &amp; Cozy</a>
+        <a href="#make-it">Make It Yourself</a>
+        <a href="#winter-glow">Winter Glow</a>
+        <a href="#cozy-gifts">Cozy Gifts</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-toggle" type="button" aria-label="فتح البحث">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <a class="basket-link" href="#basket" aria-label="سلة التسوق">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.5L21 8H6"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+          <span>سلتي</span><b class="basket-count" aria-live="polite">0</b>
+        </a>
+      </div>
+    </div>
+    <form class="search-bar container" role="search" hidden>
+      <label class="sr-only" for="site-search">ابحثي عن منتج</label>
+      <input id="site-search" type="search" placeholder="ابحثي عن بطانية، شمعة، خيوط..." autocomplete="off">
+      <button class="button button-small" type="submit">ابحثي</button>
+      <button class="search-close icon-button" type="button" aria-label="إغلاق البحث">×</button>
+    </form>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-decor decor-heart" aria-hidden="true">♡</div>
+      <div class="hero-decor decor-star" aria-hidden="true">✦</div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> تفاصيل صغيرة، دفء كبير</p>
+          <h1>شتاءك أدفى مع <span>Cozy Loop</span></h1>
+          <p class="hero-description">قطع ناعمة، تفاصيل مليانة حب، وهدايا تصنع لحظات دافئة. اكتشفي عالمًا من الراحة والجمال، وخلي الشتاء أحلى مع Cozy Loop.</p>
+          <div class="hero-buttons">
+            <a class="button" href="#soft-cozy">اكتشفي مجموعتنا <span aria-hidden="true">←</span></a>
+            <a class="button button-outline" href="#cozy-gifts">تصفحي الهدايا</a>
+          </div>
+          <p class="handwritten">كل خيط يحمل حكاية دفء.</p>
+          <div class="hero-proof"><span class="proof-spark">✳</span><span>صُنعت بحب، لتُهدى بحب</span><span class="proof-dot"></span><span>اختيارات شتوية مميزة</span></div>
+        </div>
+        <div class="hero-art-wrap">
+          <div class="hero-art-halo"></div>
+          <img class="hero-art" src="assets/images/cozy-winter-scene.svg" alt="رسمة شتوية دافئة تضم بطانية وكرة صوف وشمعة وكوب كاكاو وبوكس هدية">
+          <span class="art-caption">a little cozy corner</span>
+          <img class="hero-yarn" src="assets/images/smiling-yarn-ball.svg" alt="" width="90" height="90">
+        </div>
+      </div>
+      <div class="hero-bottom-curve" aria-hidden="true"></div>
+    </section>
+
+    <section class="winter-words section-pad" aria-labelledby="words-title">
+      <div class="container">
+        <div class="section-heading compact-heading">
+          <p class="eyebrow">لحظات تستحق الدفء</p>
+          <h2 id="words-title">كلمات تشبه <span>حضن الشتاء</span></h2>
+        </div>
+        <div class="quote-grid">
+          <article class="quote-card quote-pink"><span class="quote-mark">“</span><p>لأن أجمل اللحظات تبدأ ببطانية دافئة.</p><span class="quote-doodle">♡</span></article>
+          <article class="quote-card quote-peach"><span class="quote-mark">“</span><p>دفء الشتاء مو بس شعور، هو تفاصيل.</p><span class="quote-doodle">✳</span></article>
+          <article class="quote-card quote-cream"><span class="quote-mark">“</span><p>هدية صغيرة، ودفء كبير.</p><span class="quote-doodle">♡</span></article>
+          <article class="quote-card quote-pink"><span class="quote-mark">“</span><p>صُنعت بحب، لتُهدى بحب.</p><span class="quote-doodle">✦</span></article>
+          <article class="quote-card quote-cream"><span class="quote-mark">“</span><p>خلّي أيامك الباردة مليانة دفء.</p><span class="quote-doodle">♡</span></article>
+          <article class="quote-card quote-peach quote-english"><span class="quote-mark">“</span><p>Cozy moments,<br>endless warmth.</p><span class="quote-doodle">✳</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection-section section-pad" id="soft-cozy" aria-labelledby="soft-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">01 — لفي نفسك بالراحة</p><h2 id="soft-title">Soft <span>&amp;</span> Cozy</h2><p class="section-description">لفّي نفسك بالدفء، واختاري قطعتك المفضلة لأيام الشتاء.</p></div>
+          <a class="text-link" href="#soft-products">تصفحي القطع <span aria-hidden="true">←</span></a>
+        </div>
+        <div class="product-grid" id="soft-products" data-product-grid="soft"></div>
+      </div>
+    </section>
+
+    <section class="collection-section diy-section section-pad" id="make-it" aria-labelledby="diy-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">02 — اصنعيها بنفسك</p><h2 id="diy-title">Make It <span>Yourself</span></h2><h3 class="section-subtitle">خلي إبداعك يدفّي الشتاء.</h3><p class="section-description">كل شيء تحتاجينه لصناعة قطعة دافئة بيديك. اكتشفي الخيوط والأدوات وابدئي حكايتك الإبداعية.</p></div>
+          <div class="filter-wrap">
+            <label for="diy-filter">تصفية حسب</label>
+            <select id="diy-filter" aria-label="تصفية منتجات اصنعيها بنفسك">
+              <option value="all">كل المنتجات</option><option value="yarn">خيوط</option><option value="tools">أدوات</option><option value="kit">أطقم جاهزة</option>
+            </select>
+          </div>
+        </div>
+        <div class="product-grid" id="diy-products" data-product-grid="diy"></div>
+      </div>
+    </section>
+
+    <section class="collection-section candle-section section-pad" id="winter-glow" aria-labelledby="candle-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">03 — ضوء هادئ، ورائحة دافئة</p><h2 id="candle-title">Winter <span>Glow</span></h2><h3 class="section-subtitle">أضيئي ليالي الشتاء برائحة الدفء.</h3><p class="section-description">شموع معطرة تضيف لمسة من الهدوء والراحة إلى لحظاتك الشتوية.</p></div>
+          <img class="section-doodle candle-doodle" src="assets/images/winter-candle.svg" alt="" loading="lazy">
+        </div>
+        <div class="scent-note-row"><span>Vanilla Cream <small>فانيلا كريمية • ناعمة ودافئة</small></span><span>Cinnamon Spice <small>قرفة وتوابل • أجواء شتوية مريحة</small></span></div>
+        <div class="product-grid" id="candle-products" data-product-grid="candles"></div>
+      </div>
+    </section>
+
+    <section class="gift-section section-pad" id="cozy-gifts" aria-labelledby="gift-title">
+      <div class="gift-spark gift-spark-one" aria-hidden="true">✦</div>
+      <div class="gift-spark gift-spark-two" aria-hidden="true">♡</div>
+      <div class="container">
+        <div class="section-heading gift-heading">
+          <div><p class="eyebrow">04 — لحظات تُهدى بمحبة</p><h2 id="gift-title">Cozy <span>Gifts</span></h2><h3 class="section-subtitle">هديّة تلفّها المحبة، ويملؤها الدفء.</h3><p class="section-description">لأن أجمل الهدايا هي تلك التي تحمل شعورًا. اختاري بوكسًا شتويًا صُمم ليُهدى بكل حب.</p></div>
+          <img class="section-doodle gift-yarn" src="assets/images/smiling-yarn-ball.svg" alt="" loading="lazy">
+        </div>
+        <div class="gift-intro"><span class="gift-ribbon"></span><p>مختارة بعناية، مغلّفة بلمسة حب، وجاهزة لتصنع ذكرى دافئة.</p><span class="gift-ribbon"></span></div>
+        <div class="product-grid gift-grid" id="gift-products" data-product-grid="gifts"></div>
+      </div>
+    </section>
+
+    <section class="delivery-section section-pad" aria-labelledby="delivery-title">
+      <div class="container delivery-card">
+        <div class="delivery-copy"><p class="eyebrow">دفء يوصل لكل مكان</p><h2 id="delivery-title">دفء Cozy Loop <span>يوصل لبابك</span></h2><p>وين ما كنتِ في المملكة، نحرص إن لحظات الدفء توصلك. Cozy Loop يوفّر التوصيل لجميع مناطق المملكة العربية السعودية.</p><strong>من قلب الشتاء، إلى بابك بكل حب.</strong><small>هذا متجر تجريبي؛ لا توجد خدمة شحن أو مدة توصيل فعلية.</small></div>
+        <img class="delivery-art" src="assets/images/delivery-truck.svg" alt="رسمة شاحنة توصيل صغيرة بلون مشمشي وبرغندي تحمل صندوق هدية" loading="lazy">
+      </div>
+    </section>
+
+    <section class="basket-section section-pad" id="basket" aria-labelledby="basket-title">
+      <div class="container basket-layout">
+        <div class="basket-main">
+          <div class="section-heading basket-heading"><div><p class="eyebrow">05 — كل الدفء هنا</p><h2 id="basket-title">My Cozy <span>Basket</span></h2></div><img src="assets/images/smiling-yarn-ball.svg" alt="" width="58" height="58" loading="lazy"></div>
+          <div class="cart-items" aria-live="polite"></div>
+          <div class="empty-cart"><img src="assets/images/smiling-yarn-ball.svg" alt="" width="100" height="100" loading="lazy"><p>سلتك تنتظر أول لمسة دفء ♡</p><a class="text-link" href="#soft-cozy">اكتشفي المنتجات <span aria-hidden="true">←</span></a></div>
+        </div>
+        <aside class="cart-summary">
+          <h3>ملخص سلتك</h3><div class="summary-line"><span>عدد القطع</span><span class="summary-quantity">0</span></div><div class="summary-line summary-total"><span>الإجمالي</span><strong class="summary-price">٠ ر.س</strong></div>
+          <button class="button checkout-button" type="button">متابعة التسوق</button><p class="demo-note">سلة تجريبية — لا يوجد دفع إلكتروني.</p>
+        </aside>
+      </div>
+    </section>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#home"><img src="assets/images/smiling-yarn-ball.svg" alt="" width="48" height="48" loading="lazy"><span class="brand-copy"><strong>Cozy Loop</strong><small>A little warmth, wrapped with love.</small></span></a>
+        <p>Cozy Loop — صُنعت تفاصيلنا لتدفّي لحظاتك.</p>
+      </div>
+      <div class="footer-links"><h2>تصفحي عالمنا</h2><a href="#soft-cozy">Soft &amp; Cozy</a><a href="#make-it">Make It Yourself</a><a href="#winter-glow">Winter Glow</a><a href="#cozy-gifts">Cozy Gifts</a></div>
+      <div class="footer-delivery"><h2>دفء يوصل إليك</h2><p>نوصّل دفء Cozy Loop إلى جميع مناطق المملكة العربية السعودية.</p><span>صُنعت بحب، لتُهدى بحب ♡</span></div>
+    </div>
+    <div class="footer-bottom"><div class="container"><span>© <span id="current-year"></span> Cozy Loop. جميع الحقوق محفوظة.</span><a href="#home">صُنعت تفاصيلنا لتدفّي لحظاتك.</a></div></div>
+  </footer>
+</body>
+</html>
